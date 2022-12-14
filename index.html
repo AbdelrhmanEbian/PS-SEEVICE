@@ -1,61 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PS SERVICE</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
 
-<body>
-    
-
-        <div class="container ">
-            
-        <div class=" d-flex justify-content-between align-items-center row ">
-            <div class="card col-5 border-2 border-primary my-5">
-            <div class="card-body text-center">
-                <div class="card-title p-3 mb-2 fw-bold text-capitalize text-primary  h5">First PS</div>
-                <div class="card-text p-2 text-danger fw-bold "></div>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center row">
+        <div id="device-1" class="card col-5 border-2 border-primary my-5">
+          <div class="card-body text-center">
+            <div
+              class="card-title p-3 mb-2 fw-bold text-capitalize text-primary h5"
+            >
+              ps-1
             </div>
-        </div>
-        <div class="card  col-5 border-2 border-primary my-5">
-            <div class="card-body text-center">
-                <div class="card-title p-3 mb-2 fw-bold text-capitalize text-primary  h5">second PS</div>
-                <div class="card-text p-2 text-danger fw-bold "></div>
+            <div class="card-text p-2 text-danger fw-bold">
+              <button class="start">start</button>
+              <button class="stop">stop</button>
+              <div
+                class="much mt-3 d-flex justify-content-around align-items-center"
+              >
+                <p class="time"></p>
+                <p class="play"></p>
+                <p class="price"></p>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="card col-5 border-primary border-2 ">
-            <div class="card-body text-center">
-                <div class="card-title p-3 mb-2 fw-bold text-capitalize text-primary  h5">third PS</div>
-                <div class="card-text p-2 text-danger fw-bold"></div>
+        <div id="device-2" class="card col-5 border-2 border-primary my-5">
+          <div class="card-body text-center">
+            <div
+              class="card-title p-3 mb-2 fw-bold text-capitalize text-primary h5"
+            >
+              ps-2
             </div>
-        </div>
-        <div class="card col-5 border-2 border-primary my-5">
-            <div class="card-body text-center">
-                <div class="card-title p-3 mb-2 fw-bold text-capitalize text-primary  h5">fourth PS</div>
-                <div class="card-text p-2 text-danger  fw-bold"></div>
+            <div class="card-text p-2 text-danger fw-bold">
+              <button class="start">start</button>
+              <button class="stop">stop</button>
+              <div
+                class="much mt-3 d-flex justify-content-around align-items-center"
+              >
+                <p class="time"></p>
+                <p class="play"></p>
+                <p class="price"></p>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="card col-5 border-2 border-primary my-5">
-            <div class="card-body text-center">
-                <div class="card-title p-3 mb-2 fw-bold text-capitalize text-primary  h5">fifth PS</div>
-                <div class="card-text p-2 text-danger  fw-bold"></div>
+        <div id="device-3" class="card col-5 border-primary border-2">
+          <div class="card-body text-center">
+            <div
+              class="card-title p-3 mb-2 fw-bold text-capitalize text-primary h5"
+            >
+              ps-3
             </div>
-        </div>
-        <div class="card col-5 border-2 border-primary my-5">
-            <div class="card-body text-center">
-                <div class="card-title p-3 mb-2 fw-bold text-capitalize text-primary  h5">sixth PS</div>
-                <div class="card-text p-2 text-danger fw-bold" id="text"> </div>
+            <div class="card-text p-2 text-danger fw-bold">
+              <div class="buttons">
+                <button class="start">start</button>
+                <button class="stop">stop</button>
+                <div
+                  class="much mt-3 d-flex justify-content-around align-items-center"
+                >
+                  <p class="time"></p>
+                  <p class="play"></p>
+                  <p class="price"></p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        
+        <div id="device-4" class="card col-5 border-2 border-primary my-5">
+          <div class="card-body text-center">
+            <div
+              class="card-title p-3 mb-2 fw-bold text-capitalize text-primary h5"
+            >
+              ps-4
+            </div>
+            <div class="card-text p-2 text-danger fw-bold">
+              <button class="start">start</button>
+              <button class="stop">stop</button>
+              <div
+                class="much mt-3 d-flex justify-content-around align-items-center"
+              >
+                <p class="time"></p>
+                <p class="play"></p>
+                <p class="price"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="device-5" class="card col-5 border-2 border-primary my-5">
+          <div class="card-body text-center">
+            <div
+              class="card-title p-3 mb-2 fw-bold text-capitalize text-primary h5"
+            >
+              ps-5
+            </div>
+            <div class="card-text p-2 text-danger fw-bold">
+              <button class="start">start</button>
+              <button class="stop">stop</button>
+              <div
+                class="much mt-3 d-flex justify-content-around align-items-center"
+              >
+                <p class="time"></p>
+                <p class="play"></p>
+                <p class="price"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="device-6" class="card col-5 border-2 border-primary my-5">
+          <div class="card-body text-center">
+            <div
+              class="card-title p-3 mb-2 fw-bold text-capitalize text-primary h5"
+            >
+              ps-6
+            </div>
+            <div class="card-text p-2 text-danger fw-bold" id="text">
+              <button class="start">start</button>
+              <button class="stop">stop</button>
+              <div
+                class="much mt-3 d-flex justify-content-around align-items-center"
+              >
+                <p class="time"></p>
+                <p class="play"></p>
+                <p class="price"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <button id="add" class="text-capitalize add m-atuo d-block bg-primary px-3 py-1  border-light">add new room</button> -->
     </div>
-</div>
 
-    <script src="bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-</body>
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+    <!-- <script src="javascript/script-1.js"></script> -->
+
+    <script src="javascript/moment.min.js"></script>
+  </body>
 </html>
